@@ -18,7 +18,7 @@ public class UserServiceImpl implements UserService {
     public UserServiceImpl () {
         users = new ArrayList<>();
         User jonas = new User("Jonas", "De Boeck", "JonasDB", "t", "jonasdeboeck@hotmail.be", "img/jonas.jpg", Gender.MALE, 20);
-        User thibault = new User("Thibault", "Magnini", "ThibaultM", "t", "thibaultmagnini@hotmail.com", "img/thibault.jpg", Gender.MALE, 20);
+        User thibault = new User("Thibault", "Magnini", "ThibaultM", "t", "thibaultmagnini@hotmail.com", "img/thibault.png", Gender.MALE, 20);
         User rafael = new User("Rafael", "Backx", "RafaelB", "t", "rafaelbackx@hotmail.com", "img/rafael.jpg", Gender.MALE, 20);
         users.add(jonas);
         users.add(thibault);
