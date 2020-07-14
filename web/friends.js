@@ -45,7 +45,7 @@ function getStatus() {
     if (xhr.status === 200) {
         if (xhr.readyState === 4) {
             let status = xhr.responseText;
-            document.querySelector("p:nth-of-type(2)").innerText = document.querySelector("p:nth-of-type(2)").innerText.slice(0, 15) + status;
+            document.querySelector("p:nth-of-type(2)").innerText = document.querySelector("p:nth-of-type(2)").innerText.slice(0, 13) + status;
         }
     }
 }

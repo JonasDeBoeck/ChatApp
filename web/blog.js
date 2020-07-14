@@ -20,7 +20,7 @@ function openSocket() {
     };
     webSocket.onclose = function (event) {
 
-    }
+    };
 }
 
 function comment(evt) {
